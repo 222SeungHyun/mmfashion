@@ -11,6 +11,7 @@ class GlobalAttrCatePredictor(BasePredictor):
                  global_pool,
                  attr_predictor,
                  cate_predictor,
+                 loss_attr,
                  roi_pool=None,
                  pretrained=None):
         super(GlobalAttrCatePredictor, self).__init__()

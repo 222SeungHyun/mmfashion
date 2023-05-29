@@ -13,6 +13,7 @@ class RoIAttrCatePredictor(BasePredictor):
                  concat,
                  attr_predictor,
                  cate_predictor,
+                 loss_attr,
                  pretrained=None):
         super(RoIAttrCatePredictor, self).__init__()
 

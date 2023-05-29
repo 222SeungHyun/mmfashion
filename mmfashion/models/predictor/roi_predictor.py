@@ -11,6 +11,7 @@ class RoIPredictor(BasePredictor):
                  global_pool,
                  concat,
                  attr_predictor,
+                 loss_attr,
                  cate_predictor=None,
                  roi_pool=None,
                  pretrained=None):
